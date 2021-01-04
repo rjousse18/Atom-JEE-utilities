@@ -1,5 +1,14 @@
 # atom-jee-utilities package
 
-A short description of your package.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Atom package to simplify programming in java or jee
+
+
+for now, the package only has a few snippets, new ones will arrive as well as new features
+
+Implementation :
+
+[x] - Snippets
+[ ] - Create New project
+
+Please open issues to help me to improve my package.
