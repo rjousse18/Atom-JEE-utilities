@@ -1,0 +1,14 @@
+'.source.java':
+	'Java Main Class':
+		'prefix':'jmain'
+		'body':"""
+            public class Main
+            {
+                static int myVariable = 1;
+
+                public static void main(String[] args)
+                {
+                    System.out.println("Hello World");
+                }
+            }
+        """

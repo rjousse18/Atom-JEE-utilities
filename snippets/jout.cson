@@ -1,0 +1,4 @@
+'.source.java':
+	'Java ServletOutputStream':
+		'prefix':'jout'
+		'body':'ServletOutputStream out = response.getOutputStream();'

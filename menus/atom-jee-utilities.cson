@@ -1,0 +1,37 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+    '.entries.list-tree .file.entry.list-item':[
+        label: 'JEE Utilities',
+        submenu:[
+            {label: 'New Project Java', command: 'remote-sync:upload-file'}
+            {label: 'New Project JEE', command: 'remote-sync:upload-file'}
+
+        ]
+    ]
+
+    '.entries.list-tree .header.list-item, .header.list-item.project-root-header':[
+        label: 'JEE Utilities',
+        submenu:[
+            {label: 'Upload File', command: 'remote-sync:upload-file'}
+        ]
+    ]
+
+'atom-text-editor': [
+    {
+        'label': 'Upload File',
+        'command': 'remote-sync:upload-file'
+    }
+]
+
+'menu': [
+    {
+        label: 'Edit'
+        submenu: [
+            label:'Java Utilities',
+            submenu:[
+                {label: 'New Project Java', command: 'atom-jee-utilities:new-project-java'}
+                {label: 'New Project JEE', command: 'atom-jee-utilities:new-project-jee'}
+            ]
+        ]
+    }
+]

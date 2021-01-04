@@ -1,0 +1,7 @@
+'.source.java':
+    'Java Dispatcher (Redirection)':
+    	'prefix':'jdis'
+    	'body':"""
+    		RequestDispatcher rd = this.getServletContext().getRequestDispatcher("/${1:file.html}");
+    		    rd.forward(request, response);
+    	"""
