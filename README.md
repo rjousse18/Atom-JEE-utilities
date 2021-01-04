@@ -8,7 +8,7 @@ for now, the package only has a few snippets, new ones will arrive as well as ne
 
 Implementation :
 
-[x] - Snippets
-[ ] - Create New project
+[x] - Snippets <br />
+[ ] - Create New project <br />
 
 Please open issues to help me to improve my package.
