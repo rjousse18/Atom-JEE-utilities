@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "atom-jee-utilities:toggle"
   },
-  "repository": "https://github.com/atom/atom-jee-utilities",
+  "repository": "https://github.com/rjousse18/Atom-JEE-utilities",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
