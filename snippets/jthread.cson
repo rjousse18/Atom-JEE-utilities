@@ -1,0 +1,25 @@
+'.source.java':
+    'Java Thread':
+        'prefix':'jthread'
+        'body':"""
+            public class ${1:MyThread} extends Thread
+            {
+                public volatile boolean isRunning = true;
+                private int i = 0;
+
+                @Override
+                public void run()
+                {
+                    while(isRunning)
+                    {
+                        try
+                        {}
+                        catch(InterruptedException e)
+                        {
+                            e.printStackTrace();
+                        }
+                    }
+                }
+            }
+
+        """

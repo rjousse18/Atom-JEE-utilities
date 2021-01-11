@@ -1,0 +1,14 @@
+'.source.java':
+    'Java Class':
+    	'prefix':'jclass'
+    	'body':"""
+            package ${1:myPackage};
+
+            public class ${2:MyClass}
+            {
+                public ${2:MyClass}()
+                {
+
+                }
+            }
+    	"""

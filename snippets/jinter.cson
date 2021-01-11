@@ -1,0 +1,11 @@
+'.source.java':
+    'Java Interface':
+        'prefix':'jinter'
+        'body':"""
+            package ${1:myPackage};
+
+            public interface ${2:MyInterface}
+            {
+
+            }
+        """

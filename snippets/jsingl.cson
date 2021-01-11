@@ -1,0 +1,24 @@
+'.source.java':
+    'Java Singleton':
+        'prefix':'jsingl'
+        'body':"""
+            public final class ${1:MySingleton}
+            {
+                private static ${1:MySingleton} instance;
+
+                /** private constructor to be sure that noone will can create an instance **/
+                private ${1:MySingleton}()
+                {
+                    // ... init code
+                }
+
+                public static ${1:MySingleton} getInstance()
+                {
+                    if(instance == null)
+                        instance = new ${1:MySingleton}
+                    return instance;
+                }
+
+                // other methods...
+            }
+        """

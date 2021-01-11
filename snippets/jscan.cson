@@ -1,0 +1,4 @@
+'.source.java':
+    'Java Scanner':
+        'prefix':'jscan'
+        'body':'Scanner sc = new Scanner(System.in);'

@@ -1,5 +1,6 @@
 # atom-jee-utilities package
 
+(Alpha, work in progress)
 
 Atom package to simplify programming in java or jee
 
@@ -10,5 +11,7 @@ Implementation :
 
 [x] - Snippets <br />
 [ ] - Create New project <br />
+[ ] - Create new Class, Enum, Interface or Annotation file
+[ ] - Getters / Setters generator
 
 Please open issues to help me to improve my package.
