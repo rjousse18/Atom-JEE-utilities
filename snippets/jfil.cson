@@ -1,6 +1,6 @@
 '.source.java':
 	'Java Filter':
-		'prefix':'jf'
+		'prefix':'jfil'
 		'body': """
 			import javax.servlet.*;
 			import javax.servlet.annotation.WebFilter;
@@ -23,4 +23,4 @@
 			    }
 
 			}
-		"""    
+		"""

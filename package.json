@@ -4,13 +4,16 @@
   "version": "0.2.1",
   "description": "A short description of your package",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "atom-jee-utilities:toggle"
-  },
+  "activationCommands": {},
   "repository": "https://github.com/rjousse18/Atom-JEE-utilities",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "atom-space-pen-views": "^2.2.0",
+    "fs-plus": "^3.1.1",
+    "jquery": "^3.5.1",
+    "mobx": "^6.0.4"
+  }
 }
