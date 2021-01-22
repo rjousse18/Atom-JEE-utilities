@@ -10,8 +10,9 @@ for now, the package only has a few snippets, new ones will arrive as well as ne
 Implementation :
 
 [x] - Snippets <br />
+[x] - Create new class JEE <br />
 [ ] - Create New project <br />
-[ ] - Create new Class, Enum, Interface or Annotation file
-[ ] - Getters / Setters generator
+[ ] - Create new Java Class, Enum, Interface or Annotation file <br />
+[ ] - Getters / Setters generator <br />
 
 Please open issues to help me to improve my package.
